@@ -19,6 +19,47 @@ body {
     padding: 0 2vw;
 }
 
+
+
+
+
+
+
+
+
+div#menu-itens { 
+    position: absolute;
+    border: 1px solid;
+    height: 90vh;
+    width: 30vw;
+    left: 68vw;
+    top: 75px;
+}
+
+div#menu-itens ul {
+    list-style: none;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20%;
+}
+
+div#menu-itens ul li{
+    margin-bottom: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header {
     background-color: white;
     padding-top: 20px;
