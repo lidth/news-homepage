@@ -54,6 +54,7 @@ div#menu-itens a:active {
 }
 
 header {
+    height: 45px;
     background-color: white;
     padding-top: 20px;
     display: flex;
