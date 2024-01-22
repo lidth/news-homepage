@@ -108,11 +108,10 @@ div.ttcontent {
 }
 
 img.tcimg {
-    width: 100px;
+    width: 130px;
 }
 
 div.tcbox {
-    border: 1px solid;
     width: 50%;
     margin-left: 20px;
 }
