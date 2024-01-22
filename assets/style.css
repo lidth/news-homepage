@@ -19,14 +19,6 @@ body {
     padding: 0 2vw;
 }
 
-
-
-
-
-
-
-
-
 div#menu-itens { 
     display: none;
     position: absolute;
@@ -54,23 +46,12 @@ div#menu-itens li{
 div#menu-itens a {
     text-decoration: none;
     font-size: 1.6em;
+    color: hsl(240, 100%, 5%);
 }
 
 div#menu-itens a:active {
     color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 header {
     background-color: white;
@@ -88,7 +69,8 @@ header img#menu {
     width: 40px;
 }
 
-main {
+img#closemenu {
+    width: 30px;
 }
 
 
