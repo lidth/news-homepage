@@ -1,0 +1,17 @@
+@media screen and (min-width: 481px) and (max-width: 768px){ /* IPADS AND TABLETS*/
+    img#web3 {
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    p#ttext {
+        font-size: 1.5em;
+        width: 90%;
+    }
+
+    main button {
+    padding: 15px 70px;
+    }
+
+
+}
