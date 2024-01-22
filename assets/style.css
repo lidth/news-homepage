@@ -72,6 +72,7 @@ main button {
 div#second-content {
     background-color: hsl(240, 100%, 5%);
     padding: 25px 20px;
+    margin-bottom: 60px;
 }
 
 div#second-content h2 {
@@ -98,4 +99,36 @@ p.sscp {
     font-size: 1.1em;
     color: rgba(255, 255, 255, 0.616);
     margin-bottom: 35px;
+}
+
+div.ttcontent {
+    margin: 50px 0px;
+    width: 100%;
+    display: flex;
+}
+
+img.tcimg {
+    width: 100px;
+}
+
+div.tcbox {
+    border: 1px solid;
+    width: 50%;
+    margin-left: 20px;
+}
+
+h2.tcwt {
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+h3.tcpt {
+    color: hsl(240, 100%, 5%);
+    margin-bottom: 15px;
+}
+
+p.tcppw {
+    color: hsl(236, 13%, 42%);
+    font-size: 0.9em;
 }
