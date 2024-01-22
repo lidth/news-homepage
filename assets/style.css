@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: Inter;
 }
@@ -16,7 +16,7 @@ body, html {
 
 body {
     background-color: white;
-    margin: 0 14px;
+    padding: 0 14px;
 }
 
 header {
