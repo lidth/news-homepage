@@ -16,22 +16,22 @@ body, html {
 
 body {
     background-color: white;
-    padding: 0 14px;
+    padding: 0 2vw;
 }
 
 header {
     background-color: white;
-    height: 60px;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header img#logo {
     width: 40px;
-    margin-right: 215px;
 }
 
 header img#menu {
-    padding-bottom: 3px;
+    width: 40px;
 }
 
 main {
