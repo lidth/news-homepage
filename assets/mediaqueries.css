@@ -1,49 +1,27 @@
-@media screen and (min-width: 481px) and (max-width: 768px){ /* IPADS AND TABLETS*/
-    img.web3 {
-        width: 90%;
-        margin-left: 30px;
-    }
-
-    p#ttext {
-        font-size: 1.5em;
-        width: 90%;
-    }
-
-    main button {
-    padding: 15px 70px;
-    }
-
-
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) /*Small screens, laptops*/ {
-    img.web3 {
-        width: 100%;
-    }
-
-    img#web3mobile {
-        display: none;
-    }
-
-    img#web3desktop {
-        display: block;
-    }
-
-    p#ttext {
-        font-size: 1.5em;
-        width: 90%;
-    }
-
-    main button {
-    padding: 15px 70px;
-    }
-}
-
 @media screen and (min-width: 1025px) /**/ {
-    img.web3 {
-        width: 670px;
+    body{
+        padding: 0px 150px ;
     }
 
+    header img#menu {
+        display: none;
+    }
+
+    header ul {
+        display: inline;
+        list-style: none;
+    }
+
+    header ul li {
+        display: inline-block;
+    }
+
+    header a {
+        text-decoration: none;
+        color: hsl(240, 100%, 5%);
+        margin-left: 25px;
+        font-size: 1.7em;
+    }
 
     img#web3mobile {
         display: none;
@@ -51,15 +29,52 @@
 
     img#web3desktop {
         display: block;
+        width: 84%;
     }
 
+    div#mscontent {
+        display: flex;
+        border: 1px solid;
+    }
+
+    div#test {
+        width: 2000px;
+        border: 1px solid;
+    }
+
+    div#mcontent {
+        border: 1px solid;
+        padding: 0px;
+        width: 70%;
+    }
+
+    h1#mtitle {
+        display: inline-block;
+        width: 40%;
+        font-size: 3vw;
+        border: 1px solid;
+        margin-right: 80px;
+    }
 
     p#ttext {
-        font-size: 1.5em;
-        width: 90%;
+        display: inline-block;
+        border: 1px solid;
+        width: 34%;
+        position: absolute;
+        color: hsla(240, 100%, 5%, 0.788);
+        font-size: 1.5vw;
     }
 
-    main button {
-    padding: 15px 70px;
+    button#readmore {
+        display: inline-block;
+        padding: 20px 70px;
+        font-size: 0.7vw;
+    }
+
+    div#second-content {
+        background-color: hsl(240, 100%, 5%);
+        padding: 25px 20px;
+        margin-bottom: 0px;
+        
     }
 }
